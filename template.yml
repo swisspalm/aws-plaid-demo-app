@@ -80,7 +80,7 @@ Resources:
             reason: "Ignoring KMS key"
     Properties:
       Description: !Sub "Plaid Credential - ${PlaidEnvironment}"
-      Name: !Sub "plaid/${PlaidEnvironment}/credentials"
+      Name: !Sub "plaid/${PlaidEnvironment}/credentials_demo"
       SecretString: !Sub |-
         {
           "client_id": "${PlaidClientId}",
